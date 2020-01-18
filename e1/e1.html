@@ -12,6 +12,7 @@
  	<!-- The header -->
  	<div id="header">
  		<!-- Twitter logo goes in here -->
+ 		<img class='birdLogo' src="./bird.png">
  		
  	</div>
 
@@ -19,7 +20,7 @@
  	<div id="banner"> <!-- Just holds the banner image, don't need to style this div. -->
 
  		<!-- Banner image goes in here -->
- 		
+ 		<img class='bannnerPic' src="uoft_banner.jpeg">
 
  	</div>
 
@@ -27,12 +28,17 @@
  		<ul>
  			<!-- Style the list element: Label and number -->
  			<li>Tweets<br><span class="profileStatsNumber">478</span></li>
-
+ 			<li>Followers<br><span class="profileStatsNumber">23k</span></li>
+ 			<li>Follows<br><span class="profileStatsNumber">12</span></li>
+ 			<li>Likes<br><span class="profileStatsNumber">10.3k</span></li>
+ 			
  			<!-- Add the rest of the stats below -->
 
 
  		</ul>
  	</div>
+
+ 	<img id='bigProfilePicCircle' src="uoft.jpg">
 
  	<!-- The Profile Info Section -->
  	<div id="profileInfo">
@@ -61,7 +67,19 @@
  			and one that has the content of the tweet.
  			Remember to look in the starter CSS for appropriate class names that 
  			match these descriptions. -->
-
+ 			<div class="tweetIconContainer">
+ 				<img class='tweetIcon' src="uoft.jpg">
+ 			</div>
+ 			<div class="tweetContent">
+ 				<h2 class="sender">University of Toronto</h2>
+ 				<p class="handle">@UofT</p>
+ 				<div>
+	 				<p class="tweetText">Another great day at UofT!</p>
+	 				<p class="hashtag">#UofT</p>
+	 				<p class="hashtag">#GreatDay</p>
+ 				</div>
+ 				
+ 			</div>
 
  		</div>
 
@@ -69,6 +87,20 @@
  		<div class='tweet'>
  			<!-- Reuse all of the tweet classes from the one above, 
  			and just change the content of the tweet. -->
+
+ 			<div class="tweetIconContainer">
+ 				<img class='tweetIcon' src="uoft.jpg">
+ 			</div>
+ 			<div class="tweetContent">
+ 				<h2 class="sender">University of Toronto</h2>
+ 				<p class="handle">@UofT</p>
+ 				<div>
+	 				<p class="tweetText">Check out some books at</p>
+	 				<p class="hashtag">#robarts</p>	
+ 				</div>
+ 				
+ 				<img class='tweetContentPicture' src="./robarts.jpg">
+ 			</div>
 
 
  		</div>
