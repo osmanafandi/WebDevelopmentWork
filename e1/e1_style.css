@@ -61,8 +61,8 @@ a {
 	padding: 3px;
 	
 	/* Add properties below */
-	position: relative;
-	left: 390px;
+	margin-left: 390px;
+
 	padding: 3px 0;
 
 	
@@ -193,7 +193,7 @@ a {
 #bigProfilePicCircle {
 	/* Add properties below */
 	position: absolute;
-	top: 430px;
+	top: 230px;
 	left: 100px;
 	width: 200px;
 	border-radius: 50%;
