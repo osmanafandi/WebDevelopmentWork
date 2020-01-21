@@ -201,26 +201,15 @@ a {
     border-color: white;
 
 }
-.sender{
-	display: inline-block;
+.tweetText{
+	max-width: 500px;
 }
-
-.handle{
-	color: grey;
-	display: inline-block;
-}
-
 
 /** Some font color classes for you to use. **/
 .grey {
 	color: grey;
 }
 
-.tweetText{
-	display: inline-block;
-}
-
 .hashtag {
 	color: #5088e9;
-	display: inline-block;
 }
